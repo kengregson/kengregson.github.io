@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light dark;
+  --light: #fff;
+  --dim: #efefef;
+  --dark: #404040
+  border-top: 5px solid var(--dark);
+  line-height: 1.5em;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--dark);
+}
+
+h1 {
+  line-height: 1em;
+}
+
+pre {
+  background-color: var(--dim);
+  margin: 0.5em 0 0.5em 0;
+  padding: 0.5em;
+  overflow: auto;
+}
+
+code {
+  background-color: var(--dim);
+}
+
+body {
+  background-color: var(--light);
+  margin: 0;
+  max-width: 800px;
+  padding: 0 20px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
